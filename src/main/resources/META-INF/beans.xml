@@ -5,8 +5,8 @@
        bean-discovery-mode="annotated">
 <alternatives>
     <class>
-<!--        com.furkankarakus.alternative.Boss1-->
-        com.furkankarakus.alternative.Boss2
+        com.furkankarakus.alternative.Boss1
+<!--        com.furkankarakus.alternative.Boss2-->
     </class>
 </alternatives>
 </beans>
