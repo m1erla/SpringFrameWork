@@ -9,7 +9,7 @@ import java.util.List;
 @Named(value = "producetuto")
 @ApplicationScoped
 public class _02_Produces {
-    @Produces // creating
+    @Produces // produced
     public List<String> getList(){
         List<String> list = new ArrayList<>();
         list.add("HTML5");
