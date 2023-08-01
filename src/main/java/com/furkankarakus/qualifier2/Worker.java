@@ -13,6 +13,7 @@ public class Worker extends Boss4{
 
     //defaultta çalışacak kodlar
     @Inject
+    //@QualifierMultiple2(EnumMoreOptions.FIRST)wildfly yeni surumunde yazmamiza gerek yok extends etmemiz yeterli
     private IBoss iBoss;
     public String getData(String data){
         return iBoss.version(data);
