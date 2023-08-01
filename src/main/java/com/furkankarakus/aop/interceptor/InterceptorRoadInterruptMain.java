@@ -1,4 +1,4 @@
-package com.furkankarakus.interceptor;
+package com.furkankarakus.aop.interceptor;
 
 import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.Interceptor;
@@ -11,7 +11,7 @@ public class InterceptorRoadInterruptMain {
    System.out.println("First status : " + invocationContext.getMethod().getName());
 
    // user
-      boolean isLogin = true; // true :  yol kesici olacak degiskenimizin once login olmali
+      boolean isLogin = false; // true :  yol kesici olacak degiskenimizin once login olmali
      // jdbc : session ?
       Object isContinue = null; // Eger yol kesilmezse devam edicegim
 

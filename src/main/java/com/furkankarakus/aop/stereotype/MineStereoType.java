@@ -1,4 +1,4 @@
-package com.furkankarakus.stereotype;
+package com.furkankarakus.aop.stereotype;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Stereotype;

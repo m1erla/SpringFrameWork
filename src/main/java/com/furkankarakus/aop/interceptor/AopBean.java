@@ -1,4 +1,4 @@
-package com.furkankarakus.interceptor;
+package com.furkankarakus.aop.interceptor;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

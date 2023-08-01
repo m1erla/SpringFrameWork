@@ -13,7 +13,14 @@
 <!--    interceptor-->
     <interceptors>
         <class>
-            com.furkankarakus.interceptor.InterceptorRoadInterruptMain
+            com.furkankarakus.aop.interceptor.InterceptorRoadInterruptMain
         </class>
     </interceptors>
+
+<!--    decorator-->
+    <decorators>
+        <class>
+            com.furkankarakus.aop.decorator.HomeDecorator
+        </class>
+    </decorators>
 </beans>

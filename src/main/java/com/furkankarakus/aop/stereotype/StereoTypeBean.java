@@ -1,4 +1,4 @@
-package com.furkankarakus.stereotype;
+package com.furkankarakus.aop.stereotype;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
