@@ -1,18 +1,17 @@
-package com.furkankarakus.qualifier;
+package com.furkankarakus.qualifier2;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-@Named(value = "qualifierCdi")
+@Named(value = "qualifier2Cdi")
 @ApplicationScoped
-public class Worker extends Boss2{
+public class Worker extends Boss4{
     //defaultta çalışacak kodlar
 //    @Inject
 //    private IBoss iBoss;
 
     //defaultta çalışacak kodlar
-    //@QualifierMultiple yeni surumlerde yazmamiza gerek yok
     @Inject
     private IBoss iBoss;
     public String getData(String data){
